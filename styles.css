@@ -88,3 +88,103 @@
     font-size: 24px;
 }
 
+
+
+@media (max-width: 768px) {
+
+    .white-rectangle {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        min-height: 45vh;
+        padding: 16px 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: flex-start;
+        gap: 12px;
+    }
+
+    .texto-inicial {
+        width: 100%;
+    }
+
+    .texto-inicial p {
+        position: static;
+        right: auto;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .mini-comentario {
+        position: static;
+        right: auto;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .regime-fechado,
+    .regime-aberto,
+    .trabalho-voluntario {
+        position: static;
+        left: auto;
+        top: auto;
+        width: 48%;
+        text-align: center;
+    }
+
+    .voltar,
+    .decidir {
+        position: static;
+        left: auto;
+        top: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .regime-fechado h1,
+    .regime-aberto h1,
+    .trabalho-voluntario h1,
+    .voltar h1,
+    .decidir h1 {
+        position: static;
+        top: auto;
+        left: auto;
+        margin: 8px 0 0 0;
+        font-size: 18px;
+    }
+
+    .regime-fechado img,
+    .regime-aberto img,
+    .trabalho-voluntario img {
+        width: 38vw !important;
+        max-width: 160px;
+        height: auto;
+    }
+
+    .voltar img,
+    .decidir img {
+        width: 22vw !important;
+        max-width: 120px;
+        height: auto;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .regime-fechado,
+    .regime-aberto,
+    .trabalho-voluntario {
+        width: 100%;
+    }
+
+    .texto-inicial p {
+        font-size: 16px;
+    }
+}
+
