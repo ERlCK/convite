@@ -1,0 +1,90 @@
+
+
+.white-rectangle {
+    width: 100%;
+    min-height: 236px;
+    background-color: #FFFFDE;
+    position: absolute;
+    top: 75%;
+    left: 0;
+}
+
+.texto-inicial p{
+    font-size: 26px;
+    position: absolute;
+    right: 30%;
+    line-height: 150%;
+    color: brown;
+}
+
+.mini-comentario {
+    font-size: 16px;
+    position: absolute;
+    right: 35%;
+}
+
+/* REGIME FECHADO */
+.regime-fechado {
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.regime-fechado h1 {
+    position: absolute;
+    top: 80%;
+}
+
+/* REGIME ABERTO */
+.regime-aberto {
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+
+.regime-aberto h1 {
+    position: absolute;
+    top: 85%;
+}
+
+/* TRABALHO VOLUNTÁRIO */
+.trabalho-voluntario {
+    position: absolute;
+    top: 0;
+    left: 75%;
+}
+
+.trabalho-voluntario h1 {
+    position: absolute;
+    top: 85%;
+    left: -15%
+}
+
+/* VOLTAR */
+.voltar {
+    position: absolute;
+    top: 55%;
+    left: 93%;
+}
+
+.voltar h1 {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    font-size: 24px;
+}
+
+/* DECIDIR */
+.decidir {
+    position: absolute;
+    top: 55%;
+    left: 93%;
+}
+
+.decidir h1 {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    font-size: 24px;
+}
+
